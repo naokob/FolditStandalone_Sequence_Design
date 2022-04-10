@@ -1,0 +1,18 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+	</SCOREFXNS>
+	<TASKOPERATIONS>
+		<ReadResfile name="resfile" filename="/WRITE/ABSOLUTE/PATH/TO/YOUR/RESFILE/your_resfile.resfile" />
+		<LimitAromaChi2 name="limitaro" chi2max="110.0" chi2min="70.0" include_trp="false" />
+	</TASKOPERATIONS>
+	<MOVERS>
+    <FastDesign name="design" task_operations="resfile,limitaro" repeats="1" />
+	</MOVERS>
+	<FILTERS>
+	</FILTERS>
+	<APPLY_TO_POSE>
+	</APPLY_TO_POSE>
+	<PROTOCOLS>
+		<Add mover_name="design"/>
+	</PROTOCOLS>
+</ROSETTASCRIPTS>
