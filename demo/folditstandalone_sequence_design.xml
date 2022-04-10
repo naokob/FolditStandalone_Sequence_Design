@@ -2,7 +2,7 @@
 	<SCOREFXNS>
 	</SCOREFXNS>
 	<TASKOPERATIONS>
-		<ReadResfile name="resfile" filename="/WRITE/ABSOLUTE/PATH/TO/YOUR/RESFILE/your_resfile.resfile" />
+		<ReadResfile name="resfile" filename="/WRITE/ABSOLUTE/PATH/TO/YOUR/RESFILE/7ec8A_mod.resfile" />
 		<LimitAromaChi2 name="limitaro" chi2max="110.0" chi2min="70.0" include_trp="false" />
 	</TASKOPERATIONS>
 	<MOVERS>
