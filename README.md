@@ -19,7 +19,6 @@ https://github.com/ShintaroMinami/GCNdesign
 
 
 ## Usage
-* Rewrite the filename of ReadResfile in the xml file with the absolute path where your resfile is located.
-* Start Foldit Standalone and import the design template structure　--->　click on the green "foldit" icon　--->　click on the orange "Main" icon Click　--->　Select "Run RosettaScript" in "Menu"　--->　Select and open the xml file.
+* Rewrite the filename of ReadResfile in this xml file with the absolute path where your resfile is located.
+* Launch Foldit Standalone and import the design template structure　--->　Click on the green "foldit" icon　--->　Click on the orange "Main" icon　--->　Select "Run RosettaScript" in "Menu"　--->　Select and open the xml file.
 * It takes from one to several hours to design one structure.
-
